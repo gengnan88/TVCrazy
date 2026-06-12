@@ -12,7 +12,7 @@ on:
         required: false
         default: ''
   schedule:
-    # 每天凌晨0点（UTC+8 为上午11点）
+    # 每天凌晨0点（UTC+8 为上午11 点）
     - cron: '0 0 * * *'
 
 jobs:
